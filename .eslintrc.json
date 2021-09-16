@@ -15,5 +15,10 @@
         "@typescript-eslint"
     ],
     "rules": {
+      "no-console":"off",
+      "import/no-unresolved": [
+        2, 
+        { "caseSensitive": false }
+     ]
     }
 }
